@@ -51,7 +51,7 @@ public class GAgent : MonoBehaviour
             {
                 if (!invoked)
                 {
-                    Invoked("CompleteAction", currentAction.durantion);
+                    Invoke("CompleteAction", currentAction.duration);
                     invoked = true;
                 }
             }
