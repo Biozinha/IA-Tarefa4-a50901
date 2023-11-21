@@ -1564,9 +1564,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions: []
-  beliefs:
-    key: 
-    value: 0
   currentAction: {fileID: 0}
 --- !u!1 &871944019
 GameObject:
