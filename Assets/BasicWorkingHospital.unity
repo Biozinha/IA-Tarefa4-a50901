@@ -1544,6 +1544,8 @@ MonoBehaviour:
   preConditions:
   - key: Waiting
     value: 0
+  - key: FreeCubicle
+    value: 0
   afterEffects:
   - key: treatPatient
     value: 0
@@ -1562,6 +1564,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions: []
+  beliefs:
+    key: 
+    value: 0
   currentAction: {fileID: 0}
 --- !u!1 &871944019
 GameObject:
