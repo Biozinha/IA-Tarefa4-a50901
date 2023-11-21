@@ -13,6 +13,9 @@ public class Pationt : GAgent
 
         SubGoal s2 = new SubGoal("isTreated", 1, true);
         sgoals.Add(s2, 5);
+
+        SubGoal s3 = new SubGoal("isHome", 1, true);
+        sgoals.Add(s3, 5);
     }
 
    
