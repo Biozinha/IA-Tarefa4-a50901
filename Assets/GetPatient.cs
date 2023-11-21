@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GoToWaitingRooml : GAction
+public class GetPatientl : GAction
 {
    public override bool PrePerform()
     {
@@ -10,7 +10,6 @@ public class GoToWaitingRooml : GAction
     }
     public override bool PostPerform()
     {
-        GWorld.Instance.GetWorld().ModifyState("Waiting", 1);
         return true;
     }
 }
